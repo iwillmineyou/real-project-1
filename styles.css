@@ -47,6 +47,10 @@ header a {
     margin-bottom: 1em;
 }
 
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 h1 {
     font-family: 'oswald', sans-serif;
     text-transform: uppercase;
