@@ -35,6 +35,17 @@ header a {
     color: inherit;
 }
 
+ul li a {
+    font-size: 110%;
+    letter-spacing: 4px;
+    text-decoration: none;
+}
+
+/* Remove bullet points from the list */
+ul {
+    list-style-type: none;
+}
+
 h1 {
     font-family: 'oswald', sans-serif;
     text-transform: uppercase;
