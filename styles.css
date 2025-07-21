@@ -35,15 +35,16 @@ header a {
     color: inherit;
 }
 
-ul li a {
+/* Style for the menu with ID 'menu' */
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
-    text-decoration: none;
+    list-style-type: none;
 }
 
-/* Remove bullet points from the list */
-ul {
-    list-style-type: none;
+/* Add spacing between list items inside #menu */
+#menu > li {
+    margin-bottom: 1em;
 }
 
 h1 {
