@@ -63,7 +63,6 @@ nav {
     box-shadow: 0 2px 2px;
     z-index: 10;
     display: none;
-    top: 100%;
 }
 
 #nav-toggle:checked~nav {
